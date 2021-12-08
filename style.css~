@@ -1,0 +1,65 @@
+body {
+	background-color: whitesmoke;
+}
+
+/*This is for the front path and should not be use anyway else*/
+h1 {
+	color: blue;
+	background-color: lightblue;
+	text-align: center;
+	font-family: "Helvetica", "sans-serif";
+	font-size: 50px;
+	border-radius:75% 25%;
+	margin: auto;
+	width: 450px;
+}
+
+h2 {
+	color: dark green;
+	font-family: "Helvetica", "sans-serif";
+	font-weight: bold;
+}
+
+
+p1 {
+	color: blue;
+	font-size: 15px;
+	font-family: "Helvetica", "sans-serif";
+	font-weight: bold;
+	margin: auto;
+	padding: 15%;
+	text-align: center;
+}
+
+.topBorder {
+	outline-color: whitesmoke;
+	outline-width: 3px;
+	outline-style: solid;
+	-moz-outline-radius: 15px;
+	border-radius: 15px;
+	background-color: #73AD21;
+	padding: 25px;
+	margin: auto;
+}
+
+.topMenu {
+	color: lightblue;
+	background-color:lightblue;
+	width: 125px;
+	padding: auto;
+	border: auto;
+	border-radius: 15px;
+	border-color: lightblue solid;
+	margin: auto;	
+}
+
+.row {
+	content: "";
+	clear: both;
+	border-color: #73AD21;
+}
+
+.column {
+	float: left;
+	width: auto;
+}
