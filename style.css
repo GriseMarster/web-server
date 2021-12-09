@@ -46,6 +46,7 @@ p1 {
 	width: 125px;
 	padding: auto;
 	border: auto;
+	border-radius: 15px;
 	border-color: lightblue solid;
 	margin: auto;	
 }
